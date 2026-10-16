@@ -1,6 +1,27 @@
 {
   "automations": [
     {
+      "description": "Place des points sur une orthophoto, calcule leur altitude et insere les blocs AutoCAD correspondants.",
+      "id": "mnt_altitude_points",
+      "name": "Points d’altitude MNT",
+      "publisher": "GeoSiteKit",
+      "releases": [
+        {
+          "host_api": {
+            "max": 1,
+            "min": 1
+          },
+          "package": {
+            "sha256": "cffe0d0aed4b956dce643bda280dd9dfb774eb156233733907d5428940f81954",
+            "size_bytes": 247866,
+            "url": "https://github.com/GeoSiteKit/geositekit-toolbox/releases/download/mnt_altitude_points-v1.0.6/mnt_altitude_points-1.0.6.zip"
+          },
+          "version": "1.0.6",
+          "withdrawn": false
+        }
+      ]
+    },
+    {
       "description": "Styles VIAGEO autonomes.",
       "id": "viageo.layer-styler",
       "name": "Styles cadastre VIAGEO",
@@ -23,12 +44,12 @@
     }
   ],
   "channel": "stable",
-  "generated_at": "2026-10-16T21:10:02Z",
-  "revision": 1,
+  "generated_at": "2026-10-16T21:10:13Z",
+  "revision": 2,
   "schema": "geositekit.automation-catalog/v1",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "automation-20261011",
-    "value": "YUFoRSdVToHCvEbttTs/L3zfgmxpHTDdHXO8b45VzMyRAVTg0xerO+dNVKKUmOSwGrF16cqiHRkNbUb0k2sSDw=="
+    "value": "0LwFiBEEEQGIN7ZTW9kM/rRYTmEGNtACBjC/VqIDAATuV2fKPM//+IPPa3fBEqtequnePDJBs2z2iczb1uHZAQ=="
   }
 }
