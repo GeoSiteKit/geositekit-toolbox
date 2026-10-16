@@ -1,6 +1,27 @@
 {
   "automations": [
     {
+      "description": "Place des points sur une orthophoto, calcule leur altitude et insere les blocs AutoCAD correspondants.",
+      "id": "mnt_altitude_points",
+      "name": "Points d’altitude MNT",
+      "publisher": "GeoSiteKit",
+      "releases": [
+        {
+          "host_api": {
+            "max": 1,
+            "min": 1
+          },
+          "package": {
+            "sha256": "cffe0d0aed4b956dce643bda280dd9dfb774eb156233733907d5428940f81954",
+            "size_bytes": 247866,
+            "url": "https://github.com/GeoSiteKit/geositekit-toolbox/releases/download/mnt_altitude_points-v1.0.6/mnt_altitude_points-1.0.6.zip"
+          },
+          "version": "1.0.6",
+          "withdrawn": false
+        }
+      ]
+    },
+    {
       "description": "Durée potentielle d'ensoleillement direct et sorties AutoCAD.",
       "id": "solar_site_analysis",
       "name": "Analyse solaire du site",
@@ -44,12 +65,12 @@
     }
   ],
   "channel": "beta",
-  "generated_at": "2026-10-16T19:27:42Z",
-  "revision": 2,
+  "generated_at": "2026-10-16T19:37:28Z",
+  "revision": 3,
   "schema": "geositekit.automation-catalog/v1",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "automation-20261011",
-    "value": "lfgfWXz3XP+3tvPLNgCWln7HeBEnrd7KCyKKdZn5hkVDDN23qSNar6oWKXUTutsuEofu1G9tOMfPBQI5dauDAQ=="
+    "value": "P3kJyrYYo4wt7LiYmM3c5rNPk2g+Ml+GPJtLNd8qF6jNxEfDB3DWwKoSCXVBW8j7ngbkBi1a1ruRAMIqwCeHCg=="
   }
 }
