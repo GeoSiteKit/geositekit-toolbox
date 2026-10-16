@@ -44,12 +44,12 @@
     }
   ],
   "channel": "beta",
-  "generated_at": "2026-10-16T19:27:31Z",
+  "generated_at": "2026-10-16T19:27:42Z",
   "revision": 2,
   "schema": "geositekit.automation-catalog/v1",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "automation-20261011",
-    "value": "83XMhLjdm/JCmVWeQbb+K3S+f9pezQ+Q/0EL4+Rv5VjBGzhzy6dMtXxeOMi6eXs6zL2P2jNb80XcWVq2Bdp8CA=="
+    "value": "lfgfWXz3XP+3tvPLNgCWln7HeBEnrd7KCyKKdZn5hkVDDN23qSNar6oWKXUTutsuEofu1G9tOMfPBQI5dauDAQ=="
   }
 }
