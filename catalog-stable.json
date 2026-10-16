@@ -43,6 +43,27 @@
       ]
     },
     {
+      "description": "Profils du terrain avec coupes des bâtiments et végétation MNS confirmée par LiDAR.",
+      "id": "terrain_profiles",
+      "name": "Profils de terrain",
+      "publisher": "GeoSiteKit",
+      "releases": [
+        {
+          "host_api": {
+            "max": 1,
+            "min": 1
+          },
+          "package": {
+            "sha256": "eb9e1b30b60024eccf0517400de4ab21916090c04a0f079086596bf48efd7dbe",
+            "size_bytes": 63651,
+            "url": "https://github.com/GeoSiteKit/geositekit-toolbox/releases/download/terrain_profiles-v1.0.10/terrain_profiles-1.0.10.zip"
+          },
+          "version": "1.0.10",
+          "withdrawn": false
+        }
+      ]
+    },
+    {
       "description": "Styles VIAGEO autonomes.",
       "id": "viageo.layer-styler",
       "name": "Styles cadastre VIAGEO",
@@ -65,12 +86,12 @@
     }
   ],
   "channel": "stable",
-  "generated_at": "2026-10-16T21:10:26Z",
-  "revision": 3,
+  "generated_at": "2026-10-16T21:10:38Z",
+  "revision": 4,
   "schema": "geositekit.automation-catalog/v1",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "automation-20261011",
-    "value": "WmIeb5JFPiqLLNKtiXX3X2a7bISz0ZkB1mjQM826Ua5jzwOkKxpbY3zpM2j1L2VFlFKPZuWGWhwC+Z+XbjcjDQ=="
+    "value": "STfokf1s3v+fDV6WnxoFiD+bOe1xysiWeiONLcJ2drWI3WK8vdUybedVd+ApHqulS/fhlAmhaGpMTRFryVfFBA=="
   }
 }
