@@ -1,6 +1,27 @@
 {
   "automations": [
     {
+      "description": "Durée potentielle d'ensoleillement direct et sorties AutoCAD.",
+      "id": "solar_site_analysis",
+      "name": "Analyse solaire du site",
+      "publisher": "GeoSiteKit",
+      "releases": [
+        {
+          "host_api": {
+            "max": 1,
+            "min": 1
+          },
+          "package": {
+            "sha256": "e2d09f6f31c0d0260ae2cc03e216c4c953b8c73466dbb7d8413d7265d9310c4f",
+            "size_bytes": 76413455,
+            "url": "https://github.com/GeoSiteKit/geositekit-toolbox/releases/download/solar_site_analysis-v1.0.5/solar_site_analysis-1.0.5.zip"
+          },
+          "version": "1.0.5",
+          "withdrawn": false
+        }
+      ]
+    },
+    {
       "description": "Styles VIAGEO autonomes.",
       "id": "viageo.layer-styler",
       "name": "Styles cadastre VIAGEO",
@@ -23,12 +44,12 @@
     }
   ],
   "channel": "beta",
-  "generated_at": "2026-10-12T20:18:55Z",
-  "revision": 1,
+  "generated_at": "2026-10-16T19:27:11Z",
+  "revision": 2,
   "schema": "geositekit.automation-catalog/v1",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "automation-20261011",
-    "value": "28V63/t3AX4ysDmq7Fy6YX8t1ukvzDJVPVuOXr77hapUgRbxEYPfgerGr3mMow9ThbMlJLAedKdQ93cMk5q+Dw=="
+    "value": "rvpIoQB0+/6mIiGjJFy0LFpDB80kfSE/85jyKfnMoDatx7us+4Nif/QoGsFhS1oPMzhSD/4xyjsbsR1N4ydgAg=="
   }
 }
